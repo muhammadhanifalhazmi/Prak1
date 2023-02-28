@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Hello World App',
+            'Tugas Hello World App',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontFamily: 'custom_fonts',
@@ -24,16 +24,16 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            color: Colors.lightBlueAccent,
+            color: Colors.white,
             width: 200,
             height: 80,
             alignment: Alignment.center,
             child: Text(
-                'Hello World!',
+                'Hello',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 12,
-                  fontFamily: 'GoodTimes',
+                  fontFamily:'calibri',
                 )
             ),
           ),
